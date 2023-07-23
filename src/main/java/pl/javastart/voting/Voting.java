@@ -53,7 +53,7 @@ public class Voting {
     }
 
     private static Boolean convertVote(String vote) {
-        return switch(vote) {
+        return switch (vote) {
             case FOR_DECISION -> true;
             case AGAINST_DECISION -> false;
             default -> null;
